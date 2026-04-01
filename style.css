@@ -212,3 +212,23 @@ body {
 }
 
 .scroll-proxy { height: 10000px; }
+
+@media (max-width: 768px) {
+    .card {
+        width: 260px; 
+        min-height: 350px;
+        padding: 1.5rem;
+    }
+    
+    .card h2 {
+        font-size: 1.8rem;
+    }
+
+    .big-text {
+        font-size: 25vw; 
+    }
+
+    .viewport {
+        perspective: 800px;
+    }
+}
