@@ -10,8 +10,7 @@ body {
     background: var(--bg-dark);
     color: #e0e0e0;
     font-family: 'Share Tech Mono', monospace;
-    overflow-x: hidden;
-    overscroll-behavior: none;
+    overflow: hidden;
 }
 
 .scanlines {
